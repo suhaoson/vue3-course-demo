@@ -1,6 +1,17 @@
 import { defineStore } from "pinia";
+import type {
+  IAdress,
+  MyStore,
+  MyStoreGetters,
+  MyStoreActions,
+} from "../types";
 
-export const useMyStore = defineStore("my-store", {
+export const useMyStore = defineStore<
+  "my-store",
+  MyStore,
+  MyStoreGetters,
+  MyStoreActions
+>("my-store", {
   state: () => ({
     text: "环城东路888号",
     list: [
@@ -21,7 +32,7 @@ export const useMyStore = defineStore("my-store", {
   },
 
   actions: {
-    updateText(text) {
+    updateText(text: IAdress) {
       this.text = text;
     },
 

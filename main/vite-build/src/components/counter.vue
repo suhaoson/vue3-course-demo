@@ -5,7 +5,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { reactive, ref } from "vue";
 const state = reactive({
   count: 0,
@@ -13,18 +13,17 @@ const state = reactive({
 const onClick = () => {
   state.count++;
 };
-console.log('reactive-------->', state)
+console.log("reactive-------->", state);
 
 const count = ref(0);
 const state2 = ref({
-    count: 2
-})
+  count: 2,
+});
 const onClick2 = () => {
-    count.value++;
-}
-console.log('ref: count--------->', count);
-console.log('ref: state2--------->', state2);
-
+  count.value++;
+};
+console.log("ref: count--------->", count);
+console.log("ref: state2--------->", state2);
 </script>
 
 <style scoped>
