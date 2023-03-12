@@ -1,0 +1,30 @@
+@prefix-name: my-vue;
+
+@white: #ffffff;
+@black: #222222;
+// ...
+@gray-4: #bfbfbf;
+// ...
+
+// 默认明亮主题颜色
+:root {
+  // 页面背景颜色
+  --@{prefix-name}-page-bg-color: @white;
+  // 页面字体颜色
+  --@{prefix-name}-page-text-color: @black;
+}
+
+:root {
+  // 暗黑主题颜色
+  &.@{prefix-name}-theme-dark {
+    // 页面背景颜色
+    --@{prefix-name}-page-bg-color: @black;
+    // 页面字体颜色
+    --@{prefix-name}-page-text-color: @white;
+  }
+}
+
+.@{prefix-name}-box {
+  background: ~"var(--@{prefix-name}-page-bg-color)";
+  color: ~"var(--@{prefix-name}-page-text-color)";
+}
