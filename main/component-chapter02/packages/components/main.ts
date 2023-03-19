@@ -1,5 +1,5 @@
 import { createApp } from "vue";
-import Example from "./example/theme.vue";
+import Example from "./example/message.vue";
 import "./src/index.less";
 
 const app = createApp(Example);

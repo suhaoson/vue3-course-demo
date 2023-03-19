@@ -1,6 +1,6 @@
 import Button from "./button";
 import Box from "./box";
-// import Message from './message';
+import Message from "./message";
 // import Dialog from './dialog';
 
-export { Button, Box };
+export { Button, Box, Message };
