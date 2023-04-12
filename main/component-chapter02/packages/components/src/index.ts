@@ -8,5 +8,19 @@ import Layout from "./layout";
 import Header from "./header";
 import Content from "./content";
 import Footer from "./footer";
+import Form from "./form";
 
-export { Button, Box, Message, Layout, Row, Col, Header, Content, Footer };
+export type { FormInstance } from "./form";
+
+export {
+  Button,
+  Box,
+  Message,
+  Layout,
+  Row,
+  Col,
+  Header,
+  Content,
+  Footer,
+  Form,
+};

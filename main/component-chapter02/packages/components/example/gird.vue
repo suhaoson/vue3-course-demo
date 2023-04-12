@@ -1,59 +1,58 @@
-
 <template>
-    <Row>
-      <Col class="gird" :span="24">col-24</Col>
-    </Row>
-    <Row>
-      <Col class="gird :span="12">col-12</Col>
-      <Col class="gird gird-dark" :span="12">col-12</Col>
-    </Row>
-    <Row>
-      <Col class="gird" :span="8">col-8</Col>
-      <Col class="gird gird-dark" :span="8">col-8</Col>
-      <Col class="gird" :span="8">col-8</Col>
-    </Row>
-    <Row>
-      <Col class="gird" :span="6">col-6</Col>
-      <Col class="gird gird-dark" :span="6">col-6</Col>
-      <Col class="gird" :span="6">col-6</Col>
-      <Col class="gird gird-dark" :span="6">col-6</Col>
-    </Row>
-    <Row>
-      <Col class="gird" :span="4">col-4</Col>
-      <Col class="gird gird-dark" :span="4">col-4</Col>
-      <Col class="gird" :span="4">col-4</Col>
-      <Col class="gird gird-dark" :span="4">col-4</Col>
-      <Col class="gird" :span="4">col-4</Col>
-      <Col class="gird gird-dark" :span="4">col-4</Col>
-    </Row>
-    <Row>
-      <Col class="gird" :span="3">col-3</Col>
-      <Col class="gird gird-dark" :span="3">col-3</Col>
-      <Col class="gird" :span="3">col-3</Col>
-      <Col class="gird gird-dark" :span="3">col-3</Col>
-      <Col class="gird" :span="3">col-3</Col>
-      <Col class="gird gird-dark" :span="3">col-3</Col>
-      <Col class="gird" :span="3">col-3</Col>
-      <Col class="gird gird-dark" :span="3">col-3</Col>
-    </Row>
-    <Row>
-      <Col class="gird" :span="2">col-2</Col>
-      <Col class="gird gird-dark" :span="2">col-2</Col>
-      <Col class="gird" :span="2">col-2</Col>
-      <Col class="gird gird-dark" :span="2">col-2</Col>
-      <Col class="gird" :span="2">col-2</Col>
-      <Col class="gird gird-dark" :span="2">col-2</Col>
-      <Col class="gird" :span="2">col-2</Col>
-      <Col class="gird gird-dark" :span="2">col-2</Col>
-      <Col class="gird" :span="2">col-2</Col>
-      <Col class="gird gird-dark" :span="2">col-2</Col>
-      <Col class="gird" :span="2">col-2</Col>
-      <Col class="gird gird-dark" :span="2">col-2</Col>
-    </Row>
+  <Row>
+    <Col class="gird" :span="24">col-24</Col>
+  </Row>
+  <Row>
+    <Col class="gird" :span="12">col-12</Col>
+    <Col class="gird gird-dark" :span="12">col-12</Col>
+  </Row>
+  <Row>
+    <Col class="gird" :span="8">col-8</Col>
+    <Col class="gird gird-dark" :span="8">col-8</Col>
+    <Col class="gird" :span="8">col-8</Col>
+  </Row>
+  <Row>
+    <Col class="gird" :span="6">col-6</Col>
+    <Col class="gird gird-dark" :span="6">col-6</Col>
+    <Col class="gird" :span="6">col-6</Col>
+    <Col class="gird gird-dark" :span="6">col-6</Col>
+  </Row>
+  <Row>
+    <Col class="gird" :span="4">col-4</Col>
+    <Col class="gird gird-dark" :span="4">col-4</Col>
+    <Col class="gird" :span="4">col-4</Col>
+    <Col class="gird gird-dark" :span="4">col-4</Col>
+    <Col class="gird" :span="4">col-4</Col>
+    <Col class="gird gird-dark" :span="4">col-4</Col>
+  </Row>
+  <Row>
+    <Col class="gird" :span="3">col-3</Col>
+    <Col class="gird gird-dark" :span="3">col-3</Col>
+    <Col class="gird" :span="3">col-3</Col>
+    <Col class="gird gird-dark" :span="3">col-3</Col>
+    <Col class="gird" :span="3">col-3</Col>
+    <Col class="gird gird-dark" :span="3">col-3</Col>
+    <Col class="gird" :span="3">col-3</Col>
+    <Col class="gird gird-dark" :span="3">col-3</Col>
+  </Row>
+  <Row>
+    <Col class="gird" :span="2">col-2</Col>
+    <Col class="gird gird-dark" :span="2">col-2</Col>
+    <Col class="gird" :span="2">col-2</Col>
+    <Col class="gird gird-dark" :span="2">col-2</Col>
+    <Col class="gird" :span="2">col-2</Col>
+    <Col class="gird gird-dark" :span="2">col-2</Col>
+    <Col class="gird" :span="2">col-2</Col>
+    <Col class="gird gird-dark" :span="2">col-2</Col>
+    <Col class="gird" :span="2">col-2</Col>
+    <Col class="gird gird-dark" :span="2">col-2</Col>
+    <Col class="gird" :span="2">col-2</Col>
+    <Col class="gird gird-dark" :span="2">col-2</Col>
+  </Row>
 </template>
 
 <script setup lang="ts">
-import { Col, Row } from '../src';
+import { Col, Row } from "../src";
 </script>
 
 <style lang="less">
