@@ -1,5 +1,5 @@
 import { createApp } from "vue";
-import Example from "./example/form.vue";
+import Example from "./example/easy-dynamic-form.vue";
 import "./src/index.less";
 
 const app = createApp(Example);

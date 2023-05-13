@@ -9,8 +9,10 @@ import Header from "./header";
 import Content from "./content";
 import Footer from "./footer";
 import Form from "./form";
+import DynamicForm from "./dynamic-form";
 
 export type { FormInstance } from "./form";
+export type { DynamicFormField } from "./dynamic-form";
 
 export {
   Button,
@@ -23,4 +25,5 @@ export {
   Content,
   Footer,
   Form,
+  DynamicForm,
 };
